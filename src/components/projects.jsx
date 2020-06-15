@@ -8,7 +8,7 @@ export default class Projects extends Component {
           <div className="row no-gutters justify-content-center pb-5">
             <div className="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
               <h1 className="big big-2">Projects</h1>
-              <h2 className="mb-4">Our Projects</h2>
+              <h2 className="mb-4">My Projects</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
           </div>
