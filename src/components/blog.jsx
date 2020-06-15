@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// this file is not currently in use, but I am preserving it for possible future use
 
 export default class Blog extends Component {
   render() {

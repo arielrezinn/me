@@ -15,8 +15,8 @@ export default class Introduction extends Component {
                 <h2>I'm a {' '}
                   <span
                     className="txt-rotate"
-                    data-period={2000}
-                    data-rotate="[ &quot;Software Developer.&quot;, &quot;Something else.&quot;, &quot;Photographer.&quot; ]"></span>
+                    data-period={400}
+                    data-rotate="[ &quot;Software Developer.&quot;, &quot;Student.&quot;, &quot;Photographer.&quot; ]"></span>
                 </h2>
               </div>
             </div>

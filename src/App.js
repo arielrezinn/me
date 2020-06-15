@@ -2,14 +2,13 @@ import React from 'react';
 import Navbar from './components/navbar'
 import Introduction from './components/introduction'
 import About from './components/about'
-import Logos from './components/logos'
+import Logos from './components/logos' // these are currently not used b/c they have no applicable use
 import Resume from './components/resume'
 import Services from './components/services'
 import Projects from './components/projects'
 import ItemCounter from './components/itemcounter'
-import Blog from './components/blog'
-import PhotographyPlug from './components/photographyplug'
 import Contact from './components/contact'
+import PhotographyPlug from './components/photographyplug'
 import Footer from './components/footer'
 
 function App() {
@@ -18,14 +17,11 @@ function App() {
       <Navbar/>
       <Introduction/>
       <About/>
-      <Logos/>
       <Resume/>
       <Services/>
       <Projects/>
-      <ItemCounter/>
-      <Blog/>
-      <PhotographyPlug/>
       <Contact/>
+      <PhotographyPlug/>
       <Footer/>
     </div>
   );

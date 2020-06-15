@@ -43,7 +43,7 @@ export default class Footer extends Component {
             </div>
             <div className="col-md">
               <div className="ftco-footer-widget mb-4">
-                <h2 className="ftco-heading-2">Have a Questions?</h2>
+                <h2 className="ftco-heading-2">Questions?</h2>
                 <div className="block-23 mb-3">
                   <ul>
                     <li><span className="icon icon-map-marker" /><span className="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
@@ -57,7 +57,7 @@ export default class Footer extends Component {
           <div className="row">
             <div className="col-md-12 text-center">
               <p>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                Copyright © All rights reserved | This template is made with <i className="icon-heart color-danger" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                Copyright © All rights reserved | In a land far away, at the dawn of its creation, this website was based off of <a href="https://colorlib.com/wp/template/ronaldo/" target="_blank">a template</a> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                 {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
             </div>
           </div>

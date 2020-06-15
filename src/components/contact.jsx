@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// this file is not currently in use, but I am preserving it for possible future use
 
 export default class Contact extends Component {
   render() {
@@ -58,7 +59,7 @@ export default class Contact extends Component {
               </div>
             </div>
           </div>
-          <div className="row no-gutters block-9">
+    {/*      <div className="row no-gutters block-9">
             <div className="col-md-6 order-md-last d-flex">
               <form action="#" className="bg-light p-4 p-md-5 contact-form">
                 <div className="form-group">
@@ -81,7 +82,7 @@ export default class Contact extends Component {
             <div className="col-md-6 d-flex">
               <div className="img" style={{backgroundImage: 'url(images/about.jpg)'}} />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     )

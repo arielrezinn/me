@@ -27,11 +27,6 @@ export default class About extends Component {
                   I'm currently in pursuit of my B.A. in Computer Science at the University of Wisconsin-Madison.
                   Keep reading for more information on my experience and accomplishments!
                   </p>
-                  <ul className="about-info mt-4 px-md-0 px-2">
-                    <li className="d-flex"><span>Name</span> <span>Ariel Rezin</span></li>
-                    <li className="d-flex"><span>Location</span> <span>Madison, Wisconsin</span></li>
-                    <li className="d-flex"><span>Email</span> <span>arielrezin (at) gmail.com</span></li>
-                  </ul>
                 </div>
               </div>
               <div className="counter-wrap ftco-animate d-flex mt-md-3 fadeInUp ftco-animated">
@@ -41,7 +36,7 @@ export default class About extends Component {
                     <span className="number" data-number={120}>120 </span>
                     <span>Project complete</span>
                   </p> */}
-                  <p><a href="#" className="btn btn-primary py-3 px-3">Download CV</a></p>
+                  <p><a href="#" className="btn btn-primary py-3 px-3">Download Resume</a></p>
                 </div>
               </div>
             </div>
