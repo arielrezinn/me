@@ -19,7 +19,7 @@ export default class About extends Component {
                   <h1 className="big">About</h1>
                   <h2 className="mb-4">About Me</h2>
                   <p>
-                  Hello! I'm a software developer with a passion for helping others, and my ultimate goal is
+                  I'm a software developer with a passion for helping others, and my ultimate goal is
                   for my work to have a positive impact on people's everyday lives. I'm passionate about
                   designing accessible software and spreading awareness of topics I'm passionate about.
                   </p>

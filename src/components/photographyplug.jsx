@@ -8,7 +8,7 @@ export default class PhotographyPlug extends Component {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-7 ftco-animate text-center fadeInUp ftco-animated">
-              <h2>Check out my <span>photography</span>!</h2>
+              <h2>Check out my photography!</h2>
               <p className="mb-0"><a href="#" className="btn btn-primary py-3 px-5">Take a Look</a></p>
             </div>
           </div>
