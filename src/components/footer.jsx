@@ -6,6 +6,11 @@ export default class Footer extends Component {
       <footer className="ftco-footer ftco-section">
         <div className="container">
           <div className="row mb-5">
+          <div className="col-md text-center">
+            <div className="ftco-footer-widget mb-4">
+              <h2 className="ftco-heading-2">Any questions for me? Get in touch!</h2>
+            </div>
+          </div>     {/*
             <div className="col-md">
               <div className="ftco-footer-widget mb-4">
                 <h2 className="ftco-heading-2">About</h2>
@@ -52,7 +57,7 @@ export default class Footer extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             <div className="col-md-12 text-center">

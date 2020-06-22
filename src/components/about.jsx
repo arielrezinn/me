@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import pdf from '../pdfs/Resume.pdf'
 
 export default class About extends Component {
   render() {
@@ -21,11 +22,12 @@ export default class About extends Component {
                   <p>
                   I'm a software developer with a passion for helping others, and my ultimate goal is
                   for my work to have a positive impact on people's everyday lives. I'm passionate about
-                  designing accessible software and spreading awareness of topics I'm passionate about.
+                  designing accessible software and spreading awareness of topics I care about.
                   </p>
                   <p>
                   I'm currently in pursuit of my B.A. in Computer Science at the University of Wisconsin-Madison.
-                  Keep reading for more information on my experience and accomplishments!
+                  Feel free to check out some of my work, and get in touch if you'd like to connect! 
+                  You can find my contact information on my resume.
                   </p>
                 </div>
               </div>
@@ -36,7 +38,7 @@ export default class About extends Component {
                     <span className="number" data-number={120}>120 </span>
                     <span>Project complete</span>
                   </p> */}
-                  <p><a href="#" className="btn btn-primary py-3 px-3">Download Resume</a></p>
+                  <p><a href={pdf} className="btn btn-primary py-3 px-3">View Resume</a></p>
                 </div>
               </div>
             </div>
