@@ -9,7 +9,7 @@ export default class About extends Component {
           <div className="row d-flex no-gutters">
             <div className="col-md-6 col-lg-6 d-flex">
               <div className="img-about img d-flex align-items-stretch">
-                <div className="overlay" />
+                <div className="overlay"/>
                 <div className="img d-flex align-self-stretch align-items-center" style={{backgroundImage: 'url(images/about.jpg)'}}>
                 </div>
               </div>
@@ -22,23 +22,26 @@ export default class About extends Component {
                   <p>
                   I'm a software developer with a passion for helping others, and my ultimate goal is
                   for my work to have a positive impact on people's everyday lives. I'm passionate about
-                  designing accessible software and spreading awareness of topics I care about.
+                  developing accessible software and spreading awareness of topics I care about.
                   </p>
                   <p>
                   I'm currently in pursuit of my B.A. in Computer Science at the University of Wisconsin-Madison.
-                  Feel free to check out some of my work, and get in touch if you'd like to connect! 
+                  Feel free to check out some of my work, and get in touch if you'd like to connect!
                   You can find my contact information on my resume.
                   </p>
                 </div>
               </div>
               <div className="counter-wrap ftco-animate d-flex mt-md-3 fadeInUp ftco-animated">
-                <div className="text">
+                <div className="text mr-3">
                   {/* <p className="mb-4">
                     this snippet is currently not relevant for my purposes but could be used elsewhere in the future
                     <span className="number" data-number={120}>120 </span>
                     <span>Project complete</span>
                   </p> */}
-                  <p><a href={pdf} className="btn btn-primary py-3 px-3">View Resume</a></p>
+                    <a href={pdf} target="_blank" className="btn btn-primary py-3 px-3">View Resume</a>
+                </div>
+                <div className="text">
+                  <a href="https://linkedin.com/in/arielrezin" target="_blank" className="btn btn-primary py-3 px-3">Connect on LinkedIn</a>
                 </div>
               </div>
             </div>
