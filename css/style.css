@@ -5903,7 +5903,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #8777a3 !important;
+  border-color: #007bff !important;
 }
 
 .border-secondary {
@@ -9716,6 +9716,7 @@ h1, h2, h3, h4, h5,
   padding: 0;
 }
 .ftco-navbar-light .navbar-brand {
+  visibility: collapse;
   color: #000000;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
@@ -10063,7 +10064,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   bottom: 0;
   content: "";
-  background: #ded2f7;
+  background: #e3dfea;
   z-index: -1;
   transform: rotate(45deg);
 }
