@@ -1,6 +1,6 @@
 # Welcome!
 
-This is my personal website, and is (very much so) a work in progress. Visit it here: 
+This is my personal website, and is (very much so) a work in progress. Visit it here: http://arielrezinn.github.io/me
 
 ## Bugs
 
